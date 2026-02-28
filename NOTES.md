@@ -225,7 +225,7 @@ Because the reference codes were prepended before decoding (for waveform quality
 
 ## End-to-End Summary
 
-```Mermaid
+```mermaid
 graph TD
     Input[Input: text + ref_audio] --> GenVoiceClone[Qwen3TTSModel.generate_voice_clone]
     GenVoiceClone --> CreatePrompt[create_voice_clone_prompt]
