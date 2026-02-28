@@ -1,0 +1,15 @@
+onnxruntime
+psutil
+torch
+iree-turbine
+iree-base-compiler
+iree-base-runtime
+onnxslim
+librosa
+transformers==4.57.3
+sox
+torchaudio
+argparse
+tlparse
+accelerate==1.12.0
+einops
